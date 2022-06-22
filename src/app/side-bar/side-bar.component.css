@@ -1,0 +1,44 @@
+.side-bar-sub-heading{
+    color: gray;
+    font-size: 88%;
+}
+
+.button-text{
+    color: rgb(158, 154, 154);
+    font-size: 80%;
+    width: 100%;
+}
+
+.icon-style-dashboard{
+    width: 15%;
+    margin-right: 8%;
+    opacity: 54%;
+}
+
+.icon-style-pages{
+    margin-right: 13%;
+    width: 14%;
+}
+
+.icon-style-layout{
+    margin-right: 13%;
+    width: 16%;
+}
+
+.icon-style-area{
+    margin-right: 13%;
+    width: 13%;
+    opacity: 50%;
+}
+
+.icon-style-table{
+    margin-right: 11%;
+    width: 17%;
+    opacity: 50%;
+    margin-left: -2%;
+}
+
+.text-style-inner{
+    text-align: left;
+    font-size: 130%;
+}

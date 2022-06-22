@@ -1,0 +1,21 @@
+<!-- chart cards -->
+<div class="d-flex justify-content-between py-4">
+    <div class="card flex-grow-1 mx-4">
+      <div class="card-header d-flex justify-content-start align-items-center">
+        <img [src]="areaChartIcon">
+        <p class="m-0">Area Chart Example</p>
+      </div>
+      <div class="card-body">
+        <div echarts [options]="chartOptionArea" [autoResize]="true" class="demo-chart"></div>
+      </div>
+    </div>
+    <div class="card flex-grow-1 mx-4">
+      <div class="card-header d-flex justify-content-start align-items-center">
+        <img [src]="barChartIcon">
+        <p class="m-0">Bar Chart Example</p>
+      </div>
+      <div class="card-body">
+        <div echarts [options]="chartOptionBar" class="demo-chart"></div>
+      </div>
+    </div>  
+</div> 
