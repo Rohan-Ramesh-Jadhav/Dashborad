@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgxEchartsModule } from 'ngx-echarts';
+import { NgbModal, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -23,6 +24,7 @@ import { TablesComponent } from './tables/tables.component';
     NgxEchartsModule.forRoot({
       echarts: ()=> import('echarts'),
     }),
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
